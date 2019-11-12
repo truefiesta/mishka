@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Yulia Karpova](https://up.htmlacademy.ru/adaptive/18/user/34438).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Вашкевич](https://up.htmlacademy.ru/htmlcss/26/user/116959).
 
 ---
 
