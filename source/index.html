@@ -89,6 +89,55 @@
           <li class="advantages__item advantages__item--gift">Поставляется в подарочной упаковке</li>
         </ul>
       </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы</h2>
+        <div class="reviews__list">
+          <blockquote class="reviews__item review">
+            <p class="review__text">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+            </p>
+            <cite class="review__author">Анастасия Красильникова
+              <span class="review__author-contact">@misssssiskras</span>
+            </cite>
+          </blockquote>
+          <div class="reviews__buttons-wrapper slider-buttons">
+            <button class="reviews__prev slider-buttons__prev" type="button">
+              <span class="visually-hidden">Предыдущий отзыв</span>
+            </button>
+            <button class="reviews__next slider-buttons__next" type="button">
+                <span class="visually-hidden">Следующий отзыв</span>
+            </button>
+          </div>
+          <a class="button" href="">Написать</a>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <address class="contacts__information">
+          <table class="contacts__data">
+            <tr class="contacts__row">
+              <td>e-mail:</td>
+              <td>
+                <a href="mailto: info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+              </td>
+            </tr>
+            <tr class="contacts__row">
+              <td>адрес:</td>
+              <td>г. Санкт-Петербург,
+                ул. Большая
+                Конюшенная,
+                д. 19/8, офис 101
+              </td>
+            </tr>
+          </table>
+        </address>
+        <p class="contacts__map">
+          <img src="img/map.jpg" width="100" height="50" alt="Магазин ручных изделий для дома Mishka по адресу: г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101">
+        </p>
+        <a href="" class="button">Напишите нам</a>
+      </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__social social">
@@ -118,5 +167,27 @@
         </div>
       </div>
     </footer>
+
+    <section class="modal add-to-cart">
+      <h2 class="modal__title add-to-cart__title">Добавить в корзину</h2>
+      <p class="add-to-cart__legend">Выберите размер:</p>
+      <form action="http://echo.htmlacademy.ru" method="GET">
+        <ul class="options-list">
+          <li class="options-list__item">
+            <label class="add-to-cart__option" for="item-size-s">S</label>
+            <input class="visually-hidden" type="radio" name="item-size" id="item-size-s" value="S">
+          </li>
+          <li class="options-list__item">
+            <label class="add-to-cart__option" for="item-size-m">M</label>
+            <input class="visually-hidden" type="radio" name="item-size" id="item-size-m" value="M">
+          </li>
+          <li class="options-list__item">
+            <label class="add-to-cart__option" for="item-size-l">L</label>
+            <input class="visually-hidden" type="radio" name="item-size" id="item-size-l" value="L">
+          </li>
+        </ul>
+        <button class="button button--green" type="submit">Добавить</button>
+      </form>
+    </section>
   </body>
 </html>
