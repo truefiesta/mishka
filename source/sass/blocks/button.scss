@@ -10,14 +10,13 @@
   padding: 12px;
   border: 2px solid color(primary);
   background-color: rbg(255, 255, 255);
-}
 
-.button {
   &:hover,
   &:focus {
     color: rgba(255, 255, 255, 1);
     background-color: color(primary);
   }
+
   &:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: color(primary);
