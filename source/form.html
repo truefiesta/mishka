@@ -18,21 +18,23 @@
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__list-item">
-            <a href="catalog.html">Каталог товаров</a>
+            <a class="main-nav__link" href="catalog.html">Каталог товаров</a>
           </li>
           <li class="main-nav__list-item">
-            <a>Вязание на заказ</a>
+            <a class="main-nav__link">Вязание на заказ</a>
           </li>
         </ul>
-        <form class="main-nav__search-form search-form" action="http://echo.htmlacademy.ru" method="GET">
+        <form class="main-nav__search-form search-form main-nav__list-item" action="http://echo.htmlacademy.ru" method="GET">
           <input class="search-form__input" type="text">
           <button class="search-form__button" type="submit">
             <span class="visually-hidden">Найти</span>
           </button>
         </form>
-        <a class="main-nav__cart-link" href="">
-          Корзина: <span>пока пуста</span>
-        </a>
+        <div class="main-nav__list-item">
+          <a class="main-nav__cart-link main-nav__link" href="">
+            Корзина: <span>пока пуста</span>
+          </a>
+        </div>
       </nav>
     </header>
     <main class="page-main">
