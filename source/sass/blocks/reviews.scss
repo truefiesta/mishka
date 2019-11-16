@@ -1,0 +1,25 @@
+.reviews {
+  padding: $padding;
+}
+
+.review__text {
+  @include font-normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: color(primary);
+}
+
+.review__author {
+  @include font-bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+  color: color(secondary);
+}
+
+.review__author-contact {
+  @include font-normal;
+  font-size: inherit;
+  line-height: 30px;
+  color: color(primary);
+}

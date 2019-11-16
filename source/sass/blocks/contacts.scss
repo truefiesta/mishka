@@ -1,0 +1,28 @@
+.contacts {
+  padding: $padding;
+}
+
+.contacts__title {
+  @include font-bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: color(secondary);
+}
+
+.contacts__data {
+  @include font-normal;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 30px;
+  color: color(primary);
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: color(primary);
+  border-bottom: 1px solid color(accent);
+}
+
+.contacts__map {
+  background-color: rgb(244, 233, 215);
+}

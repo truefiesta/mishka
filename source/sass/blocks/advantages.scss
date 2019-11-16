@@ -1,0 +1,15 @@
+.advantages {
+  padding: $padding;
+}
+
+.advantages__list {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: color(secondary);
+  @include list-base;
+}
+
+.advantages__item {
+  margin-bottom: 30px;
+}

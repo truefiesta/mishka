@@ -1,0 +1,6 @@
+.hero-block__title {
+  @include font-bold;
+  font-size: 27px;
+  line-height: 30px;
+  color: color(secondary);
+}
