@@ -1,0 +1,31 @@
+.hero-block {
+  background-color: rgb(252, 252, 252);
+}
+
+.page-hero__image-block {
+  padding: 30px 80px;
+}
+
+.hero-block__products-list {
+  @include list-base;
+}
+
+.hero-block__product-item {
+  padding: 30px;
+}
+
+.hero-block__product-item--light {
+  background-color: color(accent);
+}
+
+.hero-block__product-item--dark {
+  background-color: rgb(86, 195, 178);
+}
+
+.hero-block__link {
+  @include font-bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+}

@@ -1,0 +1,12 @@
+.page-main__title-wrapper {
+  min-height: 177px;
+  padding: $padding;
+  background-color: color(bg-color);
+}
+
+.page-main__title {
+  @include font-bold;
+  font-size: 27px;
+  line-height: 30px;
+  color: color(secondary);
+}

@@ -1,0 +1,36 @@
+.featured__legend {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: color(accent);
+  text-transform: uppercase;
+}
+
+.featured__description {
+  @include font-normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: color(primary);
+}
+
+.featured__details {
+  @include font-normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: color(primary);
+}
+
+.featured {
+  padding: $padding;
+}
+
+.featured__image-wrapper {
+  background-color: color(bg-color);
+}
+
+.featured__price {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: color(primary);
+}

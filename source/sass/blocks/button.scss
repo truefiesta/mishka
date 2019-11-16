@@ -1,0 +1,41 @@
+.button {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: color(primary);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  display: inline-block;
+  padding: 12px;
+  border: 2px solid color(primary);
+  background-color: rbg(255, 255, 255);
+
+  &:hover,
+  &:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: color(primary);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: color(primary);
+  }
+}
+
+.button--green {
+  color: rgb(255, 255, 255);
+  border-color: color(accent);
+  background-color: color(accent);
+
+  &:hover,
+  &:focus {
+    color: rgb(255, 255, 255);
+    border-color: color(accent);
+    background-color: color(accent);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

@@ -1,0 +1,13 @@
+.catalog {
+  padding: $padding;
+  padding-top: 30px;
+  padding-bottom: 58px;
+}
+
+.catalog__list {
+  @include list-base;
+}
+
+.catalog__item {
+  margin-bottom: 30px;
+}

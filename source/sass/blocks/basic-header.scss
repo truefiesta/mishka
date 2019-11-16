@@ -1,0 +1,6 @@
+.basic-header {
+  @include font-bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: color(secondary);
+}

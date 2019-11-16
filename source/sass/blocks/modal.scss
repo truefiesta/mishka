@@ -1,0 +1,12 @@
+.modal__title {
+  @include font-bold;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.modal__legend {
+  @include font-normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: color(primary);
+}
