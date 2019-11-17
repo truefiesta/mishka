@@ -1,0 +1,10 @@
+.footnote {
+  @include font-normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: color(primary);
+}
+
+.footnote__asterisk {
+  vertical-align: text-top;
+}
