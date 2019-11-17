@@ -1,6 +1,28 @@
+.video {
+  border: $border;
+}
+
+.video__title-wrapper {
+  padding: $padding;
+}
+
 .video__title {
   @include font-bold;
   font-size: 17px;
   line-height: 24px;
   color: color(secondary);
+}
+
+.video__text {
+  @include font-normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: color(primary);
+
+  padding: 30px;
+}
+
+.video__button-wrapper {
+  text-align: center;
+  margin: 30px 0;
 }
