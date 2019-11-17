@@ -49,78 +49,78 @@
             чтобы уточнить детали.
         </p>
         <fieldset class="form__fieldset">
-          <legend class="form_legend">Тип</legend>
+          <legend class="form__legend">Тип</legend>
           <ul class="form__filter-list">
             <li class="form__filter-item">
               <input class="visually-hidden" type="radio" name="item-type" id="type-accessory" value=" interior accessory" checked>
-              <label for="type-accessory">Аксессуар для интерьера</label>
+              <label class="form__label" for="type-accessory">Аксессуар для интерьера</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="radio" name="item-type" id="type-toy" value="kid's toy">
-              <label for="type-toy">Аксессуар для интерьера</label>
+              <label class="form__label" for="type-toy">Детская игрушка</label>
             </li>
           </ul>
         </fieldset>
         <fieldset class="form__fieldset">
-          <legend class="form_legend">Цвет</legend>
-          <ul class="form_filter-list">
+          <legend class="form__legend">Цвет</legend>
+          <ul class="form__filter-list">
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="white" id="color-white" checked>
-              <label for="color-white">Белый</label>
+              <label class="form__label" for="color-white">Белый</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="gray" id="color-gray" checked>
-              <label for="color-gray">Серый</label>
+              <label class="form__label" for="color-gray">Серый</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="tiffany" id="color-tiffany">
-              <label for="color-tiffany">&laquo;Тиффани&raquo;</label>
+              <label class="form__label" for="color-tiffany">&laquo;Тиффани&raquo;</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="black" id="color-black">
-              <label for="color-black">Черный</label>
+              <label class="form__label" for="color-black">Черный</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="pink" id="color-pink">
-              <label for="color-pink">Розовый</label>
+              <label class="form__label" for="color-pink">Розовый</label>
             </li>
             <li class="form__filter-item">
               <input class="visually-hidden" type="checkbox" name="white" id="color-orange">
-              <label for="color-orange">Оранжевый</label>
+              <label class="form__label" for="color-orange">Оранжевый</label>
             </li>
           </ul>
         </fieldset>
         <fieldset class="form__fieldset">
           <legend class="form__legend">ФИО</legend>
           <p class="form__row">
-            <label for="customer-name">Имя:</label>
-            <input type="text" name="name" id="customer-name" placeholder="Введите ваше имя" required>
+            <label class="form__label" for="customer-name">Имя:</label>
+            <input class="form__input-text" type="text" name="name" id="customer-name" placeholder="Введите ваше имя" required>
           </p>
           <p class="form__row">
-            <label for="customer-surname">Фамилия:</label>
-            <input type="text" name="surname" id="customer-surname" placeholder="Укажите фамилию" required>
+            <label class="form__label" for="customer-surname">Фамилия:</label>
+            <input class="form__input-text" type="text" name="surname" id="customer-surname" placeholder="Укажите фамилию" required>
           </p>
           <p class="form__row">
-            <label for="customer-patronym">Отчество:</label>
-            <input type="text" name="patronym" id="customer-patronym" placeholder="Отчество, если желаете" optional>
+            <label class="form__label" for="customer-patronym">Отчество:</label>
+            <input class="form__input-text" type="text" name="patronym" id="customer-patronym" placeholder="Отчество, если желаете" optional>
           </p>
         </fieldset>
         <p class="form__row">
           <label class="form__legend" for="customer-phone">Тел</label>
-          <input class="form__icon form__icon--phone" type="text" name="phone" id="customer-phone" placeholder="+7 XXX XXX XX XX" required>
+          <input class="form__input-text form__input-text--big form__icon form__icon--phone" type="text" name="phone" id="customer-phone" placeholder="+7 XXX XXX XX XX" required>
         </p>
         <p class="form__row">
           <label class="form__legend" for="customer-email">E-mail</label>
-          <input class="form__icon form__icon--email" type="text" name="email" id="customer-email" placeholder="Ваш Email" required>
+          <input class="form__input-text form__icon form__icon--email" type="text" name="email" id="customer-email" placeholder="Ваш Email" required>
         </p>
-        <p class="form__row">
+        <p class="form__row form__row--last">
           <label class="form__legend" for="customer-text">Доп</label>
-          <textarea name="text" id="customer-text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          <textarea class="form__input-text form__textarea" name="text" id="customer-text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </p>
-        <small class="footnote">
-          <sup>*</sup>Поля обязательны для заболнения
+        <small class="form__footnote footnote">
+          <sup class="footnote__asterisk">*</sup>Поля обязательны для заболнения
         </small>
-        <button class="button" type="submit">Отправить заказ</button>
+        <button class="form__button button" type="submit">Отправить заказ</button>
       </form>
     </main>
     <footer class="page-footer">
