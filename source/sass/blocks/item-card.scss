@@ -1,4 +1,7 @@
 .item-card__image {
+  width: 260px;
+  height: 195px;
+  display: block;
   background-color: color(bg-color);
 }
 
@@ -16,6 +19,9 @@
   font-size: 17px;
   line-height: 24px;
   color: color(secondary);
+
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .item-card__details {
@@ -23,6 +29,8 @@
   font-size: 13px;
   line-height: 30px;
   color: color(primary);
+
+  margin: 0;
 }
 
 .item-card__price {
@@ -30,4 +38,22 @@
   font-size: 15px;
   line-height: 24px;
   color: color(secondary);
+}
+
+@media (min-width: $tablet-width) {
+  .item-card__image {
+    width: 334px;
+    height: 334px;
+  }
+
+  .item-card__description {
+    padding: 29px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .item-card__image {
+    width: 316px;
+    height: 462px;
+  }
 }
