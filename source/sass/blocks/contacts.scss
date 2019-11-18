@@ -1,5 +1,7 @@
-.contacts {
-  padding: $padding;
+.contacts__wrapper {
+  width: 260px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 .contacts__title {
@@ -15,6 +17,9 @@
   font-style: normal;
   line-height: 30px;
   color: color(primary);
+
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .contacts__link {
@@ -24,5 +29,120 @@
 }
 
 .contacts__map {
+  margin: 0;
+  padding: 0;
   background-color: rgb(244, 233, 215);
+}
+
+.contacts__button-wrapper {
+  width: 260px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.contacts__col {
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.contacts__col--1 {
+  width: 65px;
+  vertical-align: top;
+}
+
+.contacts__col--2 {
+  width: 185px;
+  vertical-align: top;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts__wrapper {
+    width: 668px;
+    padding: 50px;
+    padding-bottom: 55px;
+  }
+
+  .contacts__button-wrapper {
+    width: 668px;
+    padding: 50px;
+    padding-bottom: 55px;
+  }
+
+  .contacts__data {
+    width: 668px;
+  }
+
+  .contacts__data-body {
+    display: flex;
+  }
+
+  .contacts__row {
+    width: 334px;
+  }
+
+  .contacts__col {
+    padding-bottom: 0;
+  }
+
+  .contacts__col--1 {
+    width: 75px;
+    vertical-align: top;
+  }
+
+  .contacts__col--2 {
+    width: 256px;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__wrapper-all {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-bottom: 105px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contacts__wrapper {
+    width: 350px;
+    padding: 0;
+    padding-left: 175px;
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .contacts__button-wrapper {
+    width: 350px;
+    padding: 0;
+    padding-left: 175px;
+    margin: 0;
+    margin-top: -48px;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .contacts__information {
+    margin-bottom: 88px;
+  }
+
+  .contacts__data {
+    width: 350px;
+  }
+
+  .contacts__data-body {
+    display: table;
+  }
+
+  .contacts__col {
+    padding-bottom: 40px;
+  }
+
+  .contacts__map {
+    width: 525px;
+    margin-left: auto;
+  }
 }
