@@ -1,5 +1,6 @@
-.reviews {
-  padding: $padding;
+.reviews__wrapper {
+  padding: 30px;
+  margin: 0 auto;
 }
 
 .review__text {
@@ -22,4 +23,18 @@
   font-size: inherit;
   line-height: 30px;
   color: color(primary);
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__wrapper {
+    width: 668px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__wrapper {
+    width: 875px;
+    padding-left: 225px;
+  }
 }
