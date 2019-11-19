@@ -1,4 +1,52 @@
 .page-footer {
-  padding: $padding;
   background-color: color(bg-color);
+}
+
+.page-footer__logo-wrapper {
+  display: none;
+}
+
+.page-footer__wrapper {
+  width: 260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.page-footer__social {
+  padding-bottom: 30px;
+  /* Временно для сетки */
+  height: 33px;
+}
+
+.page-footer__copyright {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__wrapper {
+    width: 668px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-footer__logo-wrapper {
+    display: block;
+    width: 130px;
+  }
+
+  .page-footer__copyright {
+    width: 183px;
+    padding: 0;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .page-footer__wrapper {
+    width: 1050px;
+  }
 }

@@ -1,0 +1,42 @@
+.sub-nav__list {
+  @include list-base;
+}
+
+.sub-nav__link {
+  @include font-bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: color(secondary);
+  text-decoration: none;
+}
+
+.sub-nav__note {
+  @include font-normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: color(primary);
+}
+
+@media (min-width: $tablet-width) {
+  .sub-nav {
+    display: flex;
+  }
+
+  .sub-nav__list {
+    display: none;
+  }
+
+  .sub-nav__note {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .sub-nav__list {
+    display: flex;
+  }
+
+  .sub-nav__item {
+    margin-right: 30px;
+  }
+}

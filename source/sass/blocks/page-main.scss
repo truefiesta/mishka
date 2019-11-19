@@ -1,7 +1,15 @@
+.page-main__title-bg {
+  background-color: color(bg-color);
+}
+
 .page-main__title-wrapper {
   min-height: 177px;
-  padding: $padding;
-  background-color: color(bg-color);
+  width: 260px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   text-align: center;
 }

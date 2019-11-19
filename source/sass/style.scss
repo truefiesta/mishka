@@ -1,28 +1,9 @@
 @charset "utf-8";
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/opensansbold.woff2") format("woff2"),
-    url("../fonts/opensansbold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/opensans.woff2") format("woff2"),
-    url("../fonts/opensans.woff") format("woff");
-}
-
-body {
-  background-color: rgb(255, 255, 255);
-}
-
+@import "fonts.scss";
 @import "variables";
 @import "mixins";
 @import "functions";
+@import "scaffolding.scss";
 @import "blocks/button.scss";
 @import "blocks/footnote.scss";
 @import "blocks/basic-header.scss";
@@ -30,6 +11,7 @@ body {
 @import "blocks/options-list.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
+@import "blocks/sub-nav.scss";
 @import "blocks/page-main.scss";
 @import "blocks/catalog.scss";
 @import "blocks/item-card.scss";

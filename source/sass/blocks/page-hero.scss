@@ -1,6 +1,22 @@
-.hero-block__title {
-  @include font-bold;
-  font-size: 27px;
-  line-height: 30px;
-  color: color(secondary);
+.page-hero__title-wrapper {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.page-hero__image-block {
+  padding: 30px 80px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-hero__title-wrapper {
+    width: 668px;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-hero__title-wrapper {
+    width: 1050px;
+    padding: 0 50px;
+  }
 }
