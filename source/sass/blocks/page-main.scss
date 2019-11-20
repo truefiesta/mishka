@@ -24,3 +24,28 @@
 .page-main--catalog {
   padding-bottom: 58px;
 }
+
+.page-main__form-wrapper {
+  width: 260px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__form-wrapper {
+    width: auto;
+    padding: 0;
+  }
+
+  .page-main__form-section-wrapper--background {
+    background-color: color(bg-color);
+  }
+
+  .page-main__form-section {
+    width: 668px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {}
