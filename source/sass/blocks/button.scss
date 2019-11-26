@@ -1,15 +1,17 @@
 .button {
   @include font-bold;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 20px;
   color: color(primary);
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
 
   display: inline-block;
-  padding: 12px;
+  padding: 14px;
   border: 2px solid color(primary);
   background-color: rbg(255, 255, 255);
+  box-sizing: border-box;
 
   &:hover,
   &:focus {
@@ -21,6 +23,10 @@
     color: rgba(255, 255, 255, 0.3);
     background-color: color(primary);
   }
+}
+
+.button--full {
+  width: 260px;
 }
 
 .button--green {
