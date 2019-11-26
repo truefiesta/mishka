@@ -1,0 +1,53 @@
+.divider {
+  position: relative;
+}
+
+.divider::before {
+  content: "";
+
+  width: 100%;
+  height: 6px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../img/bg-zigzag-line.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.divider--fill {
+  position: relative;
+}
+
+.divider--fill::before {
+  display: none;
+  content: "";
+
+  width: 100%;
+  height: 24px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../img/bg-zigzag-fill.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: $tablet-width) {
+  .divider--fill::before {
+    display: block;
+  }
+
+  .divider::before {
+    display: block;
+    height: 17px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .divider--fill::before {
+    height: 34px;
+  }
+}

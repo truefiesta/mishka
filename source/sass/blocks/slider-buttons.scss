@@ -1,0 +1,32 @@
+.slider-buttons {
+  display: flex;
+}
+
+.slider-buttons__prev {
+  width: 130px;
+  height: 52px;
+
+  display: inline-block;
+  border: $border;
+  border-right: 0;
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  background: url("../../img/icon-left-arrow.svg") center center no-repeat;
+  background-size: 50px 26px;
+}
+
+.slider-buttons__next {
+  width: 130px;
+  height: 52px;
+
+  display: inline-block;
+  border: $border;
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  background: url("../../img/icon-right-arrow.svg") center center no-repeat;
+  background-size: 50px 26px;
+}
