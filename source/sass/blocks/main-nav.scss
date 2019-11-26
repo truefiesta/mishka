@@ -53,6 +53,7 @@
   padding: 17px 30px;
   padding-top: 22px;
   text-align: center;
+  border-bottom: none;
 }
 
 .main-nav__logo-image {
@@ -141,7 +142,6 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    border-bottom: $border;
 
     position: relative;
   }
