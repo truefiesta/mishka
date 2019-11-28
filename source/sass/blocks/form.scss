@@ -383,6 +383,11 @@
   .form__input-text {
     font-size: 19px;
     line-height: 19px;
+
+    flex-grow: 1;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 15px;
   }
 
   .form__group {
@@ -450,13 +455,6 @@
 
   .form__row .form__label {
     margin-top: 12px;
-  }
-
-  .form__input-text {
-    flex-grow: 1;
-    padding-top: 12px;
-    padding-bottom: 11px;
-    padding-left: 15px;
   }
 
   .form__textarea {
