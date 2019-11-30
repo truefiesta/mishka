@@ -70,7 +70,7 @@
 }
 
 .form__row--green-label .form__legend {
-  margin-bottom: 4px;
+  margin-bottom: 11px;
 }
 
 .form__row .form__label {
@@ -78,7 +78,11 @@
 }
 
 .form__row--last {
-  margin-bottom: 15px;
+  margin-bottom: 11px;
+}
+
+.form__row--last .form__legend {
+  margin-bottom: 26px;
 }
 
 .form__filter-item:last-child {
@@ -178,6 +182,7 @@
   @include font-normal;
   font-size: 17px;
   line-height: 18px;
+  height: calc(18px + 16px + 12px + 2px);
 
   &::placeholder {
     color: color(primary-light);
@@ -200,6 +205,7 @@
 .form__input-text--big {
   font-size: 19px;
   line-height: 19px;
+  height: calc(19px + 16px + 12px + 2px);
 }
 
 .form__row--icon {
@@ -235,7 +241,7 @@
 }
 
 .form__textarea {
-  min-height: 135px;
+  min-height: 142px;
   padding: 15px;
   border: 2px solid color(secondary);
 
@@ -256,7 +262,7 @@
 .form__button {
   width: 100%;
   display: block;
-  margin-top: 30px;
+  margin-top: 28px;
 }
 
 @media (min-width: $tablet-width) {
@@ -292,7 +298,7 @@
   }
 
   .form__section--contacts {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 
@@ -383,10 +389,11 @@
   .form__input-text {
     font-size: 19px;
     line-height: 19px;
+    height: calc(19px + 16px + 12px + 2px);
 
     flex-grow: 1;
-    padding-top: 12px;
-    padding-bottom: 11px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     padding-left: 15px;
   }
 
@@ -420,11 +427,12 @@
 
   .form__row--green-label {
     margin-top: 2px;
-    margin-bottom: 18px;
+    margin-bottom: 27px;
   }
 
   .form__row--green-label .form__legend {
-    margin-bottom: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .form__row:last-child {
@@ -459,6 +467,7 @@
 
   .form__textarea {
     min-height: 142px;
+    padding: 15px;
   }
 
   .form__button {
@@ -502,7 +511,7 @@
   }
 
   .form__section--contacts {
-    padding-top: 50px;
+    padding-top: 52px;
     padding-bottom: 50px;
   }
 
@@ -512,7 +521,11 @@
 
   .form__row--green-label {
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
+  }
+
+  .form__row--green-label .form__legend {
+    margin-top: 14px;
   }
 
   .form__row--icon .form__input-text {
@@ -531,7 +544,7 @@
   }
 
   .form__row--last {
-    margin-bottom: 50px;
+    margin-bottom: 47px;
   }
 
   .form__description {
