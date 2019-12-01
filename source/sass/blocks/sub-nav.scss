@@ -12,6 +12,15 @@
   line-height: 24px;
   color: color(secondary);
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: color(secondary-light2);
+  }
+
+  &:active {
+    color: color(secondary-light);
+  }
 }
 
 .sub-nav__note {

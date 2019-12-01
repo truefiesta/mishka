@@ -57,6 +57,16 @@
   text-decoration: none;
   color: color(primary);
   border-bottom: 1px solid color(accent);
+
+  &:hover,
+  &:focus {
+    color: color(accent);
+  }
+
+  &:active {
+    color: color(accent);
+    opacity: 0.3;
+  }
 }
 
 .contacts__map {

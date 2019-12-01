@@ -56,6 +56,19 @@
   border-bottom: none;
 }
 
+.main-nav__logo[href] {
+  opacity: 1;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
 .main-nav__logo-image {
   margin: 0 auto;
 }
@@ -194,6 +207,11 @@
     border: 0;
   }
 
+  .main-nav__list-item--tablet .main-nav__link {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
   .main-nav__search-form {
     width: 70px;
   }
@@ -254,5 +272,9 @@
   .main-nav__top-block {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .main-nav__list-item--desktop .main-nav__link {
+    font-size: 17px;
   }
 }

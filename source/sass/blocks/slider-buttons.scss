@@ -15,6 +15,15 @@
 
   background: url("../../img/icon-left-arrow.svg") center center no-repeat;
   background-size: 50px 26px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .slider-buttons__next {
@@ -29,4 +38,13 @@
 
   background: url("../../img/icon-right-arrow.svg") center center no-repeat;
   background-size: 50px 26px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
