@@ -71,18 +71,8 @@
 
 .main-nav__logo-image {
   margin: 0 auto;
-}
-
-.main-nav__logo-image--mobile {
-  display: block;
-}
-
-.main-nav__logo-image--tablet {
-  display: none;
-}
-
-.main-nav__logo-image--desktop {
-  display: none;
+  width: 86px;
+  height: 35px;
 }
 
 .main-nav__link {
