@@ -74,6 +74,11 @@
   background-color: color(bg-color);
 }
 
+.featured__image {
+  width: 260px;
+  height: 315px;
+}
+
 .featured__price {
   @include font-bold;
   font-size: 17px;
@@ -143,6 +148,11 @@
     width: 334px;
     min-height: 404px;
     margin-left: auto;
+  }
+
+  .featured__image {
+    width: 334px;
+    height: 404px;
   }
 
   .featured__bottom-wrapper {
@@ -218,5 +228,10 @@
     min-height: 634px;
     margin-top: -159px;
     margin-bottom: 0;
+  }
+
+  .featured__image {
+    width: 525px;
+    height: 634px;
   }
 }
