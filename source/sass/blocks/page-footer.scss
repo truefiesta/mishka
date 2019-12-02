@@ -20,9 +20,6 @@
 
 .page-footer__copyright {
   padding: 30px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 @media (min-width: $tablet-width) {
@@ -38,12 +35,26 @@
     width: 130px;
   }
 
+  .page-footer__logo {
+    width: 102px;
+    height: 34px;
+  }
+
+  .page-footer__logo:hover svg,
+  .page-footer__logo:focus svg {
+    fill: color(accent);
+  }
+
+  .page-footer__logo:active svg {
+    fill: color(accent);
+    opacity: 0.3;
+  }
+
   .page-footer__copyright {
     width: 183px;
     padding: 0;
   }
 }
-
 
 @media (min-width: $desktop-width) {
   .page-footer__wrapper {

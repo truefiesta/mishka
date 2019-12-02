@@ -4,3 +4,28 @@
   line-height: 19px;
   color: color(secondary);
 }
+
+.copyright__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.copyright__link svg {
+  fill: color(secondary);
+}
+
+.copyright__link:hover svg,
+.copyright__link:focus svg {
+  fill: color(accent);
+}
+
+.copyright__link:active svg {
+  fill: color(accent);
+}
+
+.copyright__link:active {
+  opacity: 0.3;
+}
