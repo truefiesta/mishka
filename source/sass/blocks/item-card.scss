@@ -90,6 +90,11 @@
     height: 334px;
   }
 
+  .item-card__image img {
+    width: 334px;
+    height: auto;
+  }
+
   .item-card__description {
     padding: 26px;
   }
@@ -115,6 +120,11 @@
   .item-card__image {
     width: 316px;
     height: 462px;
+  }
+
+  .item-card__image img {
+    width: 316px;
+    height: auto;
   }
 
   .item-card__details {
