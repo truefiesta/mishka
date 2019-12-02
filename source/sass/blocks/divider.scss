@@ -50,4 +50,8 @@
   .divider--fill::before {
     height: 34px;
   }
+
+  .divider::before {
+    height: 23px;
+  }
 }
