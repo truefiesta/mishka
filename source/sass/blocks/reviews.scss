@@ -29,6 +29,10 @@
     background-image: url("../../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: left top;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../../img/review@2x.jpg");
+    }
   }
 
   .reviews__wrapper-body {
