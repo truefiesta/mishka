@@ -44,6 +44,11 @@
   padding: 0;
 }
 
+.video__image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
 .video__text-wrapper {
   padding-top: 28px;
   padding-right: 28px;
@@ -142,6 +147,11 @@
     position: absolute;
     top: 0;
     left: 0;
+  }
+
+  .video__image-wrapper {
+    width: 682px;
+    height: 455px;
   }
 
   .video__title-wrapper {
