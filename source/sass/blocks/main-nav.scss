@@ -94,19 +94,19 @@
   }
 }
 
-.main-nav--icon path {
+.main-nav--icon svg {
   fill: color(primary-light2);
 }
 
-.main-nav--icon:hover path {
+.main-nav--icon:hover svg {
   fill: color(accent);
 }
 
-.main-nav--icon:focus path {
+.main-nav--icon:focus svg {
   fill: color(accent);
 }
 
-.main-nav--icon:active path {
+.main-nav--icon:active svg {
   fill: color(accent-light);
 }
 
