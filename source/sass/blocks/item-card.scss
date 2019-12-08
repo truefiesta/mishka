@@ -55,16 +55,16 @@
   height: 18px;
 }
 
-.item-card__cart-link path {
+.item-card__svg {
   opacity: 0.2;
 }
 
-.item-card__cart-link:hover path {
+.item-card__cart-link:hover .item-card__svg {
   opacity: 1;
   fill: color(accent);
 }
 
-.item-card__cart-link:active path {
+.item-card__cart-link:active .item-card__svg {
   opacity: 0.3;
   fill: color(accent);
 }
