@@ -14,16 +14,16 @@
 }
 
 .copyright__link svg {
-  fill: color(secondary);
+  fill: color(accent);
 }
 
 .copyright__link:hover svg,
 .copyright__link:focus svg {
-  fill: color(accent);
+  fill: rgb(70, 193, 174);
 }
 
 .copyright__link:active svg {
-  fill: color(accent);
+  fill: rgb(70, 193, 174);
 }
 
 .copyright__link:active {
