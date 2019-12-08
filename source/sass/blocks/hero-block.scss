@@ -51,15 +51,15 @@
   margin-right: 5px;
 }
 
-.hero-block__link path {
+.hero-block__link svg {
   fill: rgba(20, 144, 128, 0.5);
 }
 
-.hero-block__link:hover path {
+.hero-block__link:hover svg {
   fill: rgba(20, 144, 128, 0.7);
 }
 
-.hero-block__link:active path {
+.hero-block__link:active svg {
   fill: rgba(20, 144, 128, 0.3);
 }
 
