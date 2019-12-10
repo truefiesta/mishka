@@ -168,13 +168,13 @@
             <h2 class="video__title">Процесс производства</h2>
           </div>
           <div class="video__iframe-wrapper">
-    <!--
-            <video src="" width="100" height="50"></video>
-    -->
             <iframe style="display: none;" src="" frameborder="0" width="260" height="150"></iframe>
             <p class="video__image-wrapper">
               <picture>
-                  <source media="(min-width: 1050px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+                <source type="image/webp" media="(min-width: 1050px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+                <source media="(min-width: 1050px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
                 <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
                 <img src="img/video-mobile@1x.jpg"
                 srcset="img/video-mobile@1x.jpg 1x, img/video-mobile@2x.jpg 2x"
@@ -182,6 +182,11 @@
                 alt="Процесс производства изделий ручной работы магазина Mishka">
               </picture>
             </p>
+            <a class="video__play-button">
+              <svg width="101" height="77">
+                <use xlink:href="img/sprite.svg#icon-video-play"></use>
+              </svg>
+            </a>
           </div>
           <div class="video__text-wrapper">
             <p class="video__text">
