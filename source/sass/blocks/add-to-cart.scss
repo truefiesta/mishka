@@ -1,5 +1,6 @@
 .add-to-cart {
   width: 320px;
+  margin-left: -160px;
   min-height: 336px;
   padding: 30px;
   padding-top: 38px;
@@ -52,6 +53,7 @@
 @media (min-width: $tablet-width) {
   .add-to-cart {
     width: 566px;
+    margin-left: -283px;
     padding-left: 106px;
     padding-right: 106px;
   }
