@@ -249,6 +249,31 @@
         </div>
       </div>
     </footer>
+    <div class="overlay overlay--add-to-cart"></div>
+    <section class="modal modal--add-to-cart">
+      <div class="modal__content add-to-cart">
+        <h2 class="modal__title add-to-cart__title">Добавить в корзину</h2>
+        <p class="modal__legend add-to-cart__legend">Выберите размер:</p>
+        <form action="http://echo.htmlacademy.ru" method="GET">
+          <ul class="options-list add-to-cart__list">
+            <li class="options-list__item add-to-cart__item">
+              <input class="visually-hidden add-to-cart__input" type="radio" name="item-size" id="item-size-s" value="S" checked>
+              <label class="add-to-cart__label" for="item-size-s">S</label>
+            </li>
+            <li class="options-list__item add-to-cart__item">
+              <input class="visually-hidden add-to-cart__input" type="radio" name="item-size" id="item-size-m" value="M">
+              <label class="add-to-cart__label" for="item-size-m">M</label>
+            </li>
+            <li class="options-list__item add-to-cart__item">
+              <input class="visually-hidden add-to-cart__input" type="radio" name="item-size" id="item-size-l" value="L">
+              <label class="add-to-cart__label" for="item-size-l">L</label>
+            </li>
+          </ul>
+          <button class="button button--green" type="submit">Добавить</button>
+        </form>
+      </div>
+    </section>
     <script src="js/app.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
