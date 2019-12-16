@@ -15,9 +15,9 @@ if (openAddToCart) {
 }
 
 if (openAddToCartInCatalog) {
-  openAddToCartInCatalog.forEach(function (item) {
-    item.addEventListener("click", openCartModal);
-  });
+  for (var item = 0; item < openAddToCartInCatalog.length; item++) {
+    openAddToCartInCatalog[item].addEventListener("click", openCartModal);
+  }
 }
 
 window.addEventListener("keydown", function (evt) {
