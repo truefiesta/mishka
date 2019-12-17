@@ -265,7 +265,7 @@
   .main-nav__top-block {
     display: flex;
     justify-content: flex-start;
-    height: 88px;
+    min-height: 88px;
   }
 
   .main-nav__list-item--desktop .main-nav__link {
