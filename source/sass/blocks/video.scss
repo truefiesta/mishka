@@ -81,6 +81,7 @@
 .video__play-button svg {
   width: 101px;
   height: 77px;
+  pointer-events: none;
 }
 
 .video__play-button:hover,
