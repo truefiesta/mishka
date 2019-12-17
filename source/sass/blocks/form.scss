@@ -304,7 +304,7 @@
 
   .form__section--message {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
 
   .form__description {
@@ -392,8 +392,8 @@
     height: calc(19px + 16px + 12px + 2px);
 
     flex-grow: 1;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 16px;
+    padding-bottom: 15px;
     padding-left: 15px;
   }
 
@@ -417,7 +417,7 @@
 
   .form__row {
     flex-direction: row;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
   }
 
   .form__row--last {
@@ -544,7 +544,7 @@
   }
 
   .form__row--last {
-    margin-bottom: 47px;
+    margin-bottom: 50px;
   }
 
   .form__description {
