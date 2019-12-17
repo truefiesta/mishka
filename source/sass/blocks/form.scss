@@ -200,6 +200,12 @@
   &:active {
     border-bottom: 2px solid color(accent);
   }
+
+  &:invalid,
+  &:required {
+    box-shadow: none;
+    outline: none;
+  }
 }
 
 .form__input-text--big {
