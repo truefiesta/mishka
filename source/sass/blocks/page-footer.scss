@@ -31,6 +31,8 @@
 
 .page-footer__copyright {
   padding: 20px 40px;
+  padding-bottom: 30px;
+
 }
 
 @media (min-width: $tablet-width) {
@@ -45,6 +47,7 @@
   .page-footer__logo-wrapper {
     display: block;
     width: 180px;
+    padding-bottom: 10px;
   }
 
   .page-footer__logo {
