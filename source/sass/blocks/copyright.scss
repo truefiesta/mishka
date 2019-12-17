@@ -15,6 +15,11 @@
 
 .copyright__link svg {
   fill: color(accent);
+  pointer-events: none;
+}
+
+.copyright__link span {
+  pointer-events: none;
 }
 
 .copyright__link:hover svg,
