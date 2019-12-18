@@ -66,6 +66,7 @@
 
 .main-nav__logo-link[href] {
   display: block;
+  margin: 0 60px;
   opacity: 1;
 
   &:hover,
@@ -165,6 +166,10 @@
     margin-right: auto;
 
     text-align: left;
+  }
+
+  .main-nav__logo-link[href] {
+    margin: 0;
   }
 
   .main-nav__logo-image {
