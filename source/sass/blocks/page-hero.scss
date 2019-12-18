@@ -14,13 +14,13 @@
   min-width: 320px;
   min-height: 282px;
   margin: 0 auto;
-  background-image: url("../../img/hero-mobile@1x.jpg");
+  background-image: url("../img/hero-mobile@1x.jpg");
   background-size: 575px auto;
   background-position: center -18px;
   background-repeat: no-repeat;
 
   @media (min-resolution: $retina-dppx) {
-    background-image: url("../../img/hero-mobile@2x.jpg");
+    background-image: url("../img/hero-mobile@2x.jpg");
   }
 }
 
@@ -38,12 +38,12 @@
   .page-hero__image-block {
     max-width: 1050px;
     min-height: 746px;
-    background-image: url("../../img/hero-tablet@1x.jpg");
+    background-image: url("../img/hero-tablet@1x.jpg");
     background-size: 1150px auto;
     background-position: center center;
 
     @media (min-resolution: $retina-dppx) {
-      background-image: url("../../img/hero-mobile@2x.jpg");
+      background-image: url("../img/hero-mobile@2x.jpg");
     }
   }
 }
@@ -59,10 +59,10 @@
   .page-hero__image-block {
     max-width: 1150px;
     min-height: 746px;
-    background-image: url("../../img/hero-desktop@1x.jpg");
+    background-image: url("../img/hero-desktop@1x.jpg");
 
     @media (min-resolution: $retina-dppx) {
-      background-image: url("../../img/hero-desktop@2x.jpg");
+      background-image: url("../img/hero-desktop@2x.jpg");
     }
   }
 }
