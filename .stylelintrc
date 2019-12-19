@@ -7,5 +7,9 @@
     "at-rule-no-unknown": [true, {
       "ignoreAtRules": ["function", "if", "each", "include", "mixin", "return"]
     }]
-  }
+  },
+
+  "ignoreFiles": [
+    "source/js/lib/*.js"
+  ]
 }

@@ -2,5 +2,7 @@
   .page-header {
     width: auto;
     margin: 0;
+    position: relative;
+    z-index: 2;
   }
 }

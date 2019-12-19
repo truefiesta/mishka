@@ -43,7 +43,7 @@
   top: 3px;
   left: 9px;
 
-  background-image: url("../../img/icon-video.svg");
+  background-image: url("../img/icon-video.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -81,6 +81,7 @@
 .video__play-button svg {
   width: 101px;
   height: 77px;
+  pointer-events: none;
 }
 
 .video__play-button:hover,

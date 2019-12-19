@@ -6,6 +6,14 @@
   display: none;
 }
 
+.page-footer__logo {
+  display: block;
+}
+
+.page-footer__logo svg {
+  pointer-events: none;
+}
+
 .page-footer__wrapper {
   width: 260px;
   margin: 0 auto;
@@ -23,6 +31,7 @@
 
 .page-footer__copyright {
   padding: 20px 40px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: $tablet-width) {
@@ -37,6 +46,7 @@
   .page-footer__logo-wrapper {
     display: block;
     width: 180px;
+    padding-bottom: 10px;
   }
 
   .page-footer__logo {

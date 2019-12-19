@@ -4,6 +4,7 @@
 }
 
 .page-main__title-wrapper {
+  height: 175px;
   min-height: 175px;
   width: 260px;
   margin: 0 auto;
@@ -22,8 +23,10 @@
   color: color(secondary);
 }
 
-.page-main--catalog {
-  padding-bottom: 58px;
+.page-main--catalog::after {
+  content: "";
+  display: block;
+  padding-bottom: 60px;
 }
 
 .page-main__form-wrapper {
@@ -36,11 +39,13 @@
 
 @media (min-width: $tablet-width) {
   .page-main {
-    margin-top: -56px;
+    position: relative;
+    top: -56px;
+    z-index: 1;
   }
 
-  .page-main--catalog {
-    padding-bottom: 63px;
+  .page-main--catalog::after {
+    padding-bottom: 6px;
   }
 
   .page-main__title-wrapper {
@@ -74,8 +79,8 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-main--catalog {
-    padding-bottom: 104px;
+  .page-main--catalog::after {
+    padding-bottom: 47px;
   }
 
   .page-main__title-bg {

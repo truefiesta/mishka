@@ -26,12 +26,12 @@
     margin: 0 auto;
     padding: 0 50px;
 
-    background-image: url("../../img/review@1x.jpg");
+    background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: left top;
 
     @media (min-resolution: $retina-dppx) {
-      background-image: url("../../img/review@2x.jpg");
+      background-image: url("../img/review@2x.jpg");
     }
   }
 

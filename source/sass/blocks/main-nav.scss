@@ -24,7 +24,7 @@
   top: 32px;
   right: 28px;
 
-  background: url("../../img/icon-menu-open.svg") no-repeat;
+  background: url("../img/icon-menu-open.svg") no-repeat;
 }
 
 .main-nav--opened .main-nav__toggle {
@@ -35,7 +35,7 @@
   top: 29px;
   right: 25px;
 
-  background: url("../../img/icon-menu-close.svg") no-repeat;
+  background: url("../img/icon-menu-close.svg") no-repeat;
 }
 
 .main-nav__list {
@@ -56,7 +56,17 @@
   border-bottom: none;
 }
 
-.main-nav__logo[href] {
+.main-nav--opened .main-nav__logo {
+  border-bottom: $border;
+}
+
+.main-nav--opened .cart {
+  border: none;
+}
+
+.main-nav__logo-link[href] {
+  display: block;
+  margin: 0 60px;
   opacity: 1;
 
   &:hover,
@@ -73,6 +83,7 @@
   margin: 0 auto;
   width: 86px;
   height: 35px;
+  pointer-events: none;
 }
 
 .main-nav__link {
@@ -142,7 +153,7 @@
   .main-nav__top-block {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
 
@@ -155,6 +166,10 @@
     margin-right: auto;
 
     text-align: left;
+  }
+
+  .main-nav__logo-link[href] {
+    margin: 0;
   }
 
   .main-nav__logo-image {
@@ -254,7 +269,8 @@
 
   .main-nav__top-block {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    min-height: 88px;
   }
 
   .main-nav__list-item--desktop .main-nav__link {

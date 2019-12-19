@@ -50,6 +50,7 @@
 
 .hero-block__link span {
   width: 130px;
+  pointer-events: none;
 }
 
 .hero-block__link--lamp svg {
@@ -62,10 +63,12 @@
 
 .hero-block__link:hover svg {
   fill: rgba(20, 144, 128, 0.7);
+  pointer-events: none;
 }
 
 .hero-block__link:active svg {
   fill: rgba(20, 144, 128, 0.3);
+  pointer-events: none;
 }
 
 @media (min-width: $tablet-width) {

@@ -11,8 +11,13 @@
   margin: 0;
 }
 
+.social__link {
+  display: block;
+}
+
 .social__link svg {
   fill: color(secondary);
+  pointer-events: none;
 }
 
 .social__link:hover svg,
