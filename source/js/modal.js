@@ -28,8 +28,10 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
-popupOverlayAddToCart.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  popupOverlayAddToCart.classList.remove("overlay--show");
-  popupAddToCart.classList.remove("modal--show");
-});
+if (popupOverlayAddToCart) {
+  popupOverlayAddToCart.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popupOverlayAddToCart.classList.remove("overlay--show");
+    popupAddToCart.classList.remove("modal--show");
+  });
+};
