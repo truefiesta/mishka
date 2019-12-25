@@ -57,6 +57,7 @@
 
 .item-card__svg {
   opacity: 0.2;
+  overflow: hidden;
 }
 
 .item-card__cart-link:hover .item-card__svg {
