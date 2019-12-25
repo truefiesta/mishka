@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 260px;
+  // width: 260px;
   margin: 0 auto;
   padding: 21px 30px;
 
@@ -53,8 +53,8 @@
   pointer-events: none;
 }
 
-.hero-block__link--lamp svg {
-  margin-right: 5px;
+.hero-block__link--toy svg {
+  overflow: hidden;
 }
 
 .hero-block__link svg {
@@ -82,12 +82,12 @@
     height: 124px;
     margin: 0 auto;
     margin-top: -125px;
-    padding: 0 50px;
   }
 
   .hero-block__products-list {
     display: flex;
     height: 124px;
+    justify-content: space-between;
     align-items: flex-end;
   }
 
@@ -116,7 +116,6 @@
 @media (min-width: $desktop-width) {
   .hero-block_products-list-wrapper {
     width: 1050px;
-    padding: 0 50px;
   }
 
   .hero-block__title {
@@ -130,7 +129,6 @@
   }
 
   .hero-block__link {
-    width: auto;
     padding: 0;
     margin: 0;
   }
