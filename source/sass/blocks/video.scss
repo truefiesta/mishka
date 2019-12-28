@@ -4,6 +4,12 @@
   padding: 0 30px;
 }
 
+.video__wrapper .video__title-wrapper,
+.video__wrapper .video__iframe-wrapper,
+.video__wrapper .video__text-wrapper {
+  pointer-events: none;
+}
+
 .video__wrapper {
   display: flex;
   flex-direction: column;
@@ -66,6 +72,10 @@
 .video__image-wrapper img {
   width: 100%;
   height: auto;
+}
+
+.video__wrapper .video__play-button {
+  pointer-events: visible;
 }
 
 .video__play-button {
