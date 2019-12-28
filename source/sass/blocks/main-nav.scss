@@ -160,6 +160,10 @@
     position: relative;
   }
 
+  .main-nav--opened .main-nav__logo {
+    border-bottom: none;
+  }
+
   .main-nav__logo {
     width: 130px;
     padding: 20px 0;
