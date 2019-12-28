@@ -5,6 +5,10 @@
   background-color: color(bg-color);
 }
 
+.item-card__image img {
+  pointer-events: none;
+}
+
 .item-card__image:hover + .item-card__description,
 .item-card__image:focus + .item-card__description {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
