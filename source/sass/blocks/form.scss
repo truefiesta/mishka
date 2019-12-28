@@ -509,7 +509,8 @@
   }
 
   .form__section--checkbox {
-    padding-bottom: 25px;
+    padding-top: 53px;
+    padding-bottom: 22px;
   }
 
   .form__section--text-fields {
@@ -527,11 +528,11 @@
 
   .form__row--green-label {
     margin: 0;
-    margin-bottom: 27px;
+    margin-bottom: 30px;
   }
 
   .form__row--green-label .form__legend {
-    margin-top: 14px;
+    margin-top: 15px;
   }
 
   .form__row--icon .form__input-text {
@@ -573,8 +574,9 @@
 
   .form__legend {
     width: 175px;
+    padding-left: 63px;
+    box-sizing: border-box;
     display: block;
-    text-align: center;
   }
 
   .form__button {
