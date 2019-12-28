@@ -39,30 +39,27 @@
   background-position: 0 0;
 }
 
-.contacts__data {
+.contacts__list {
+  @include list-base;
+}
+
+.contacts__list-item {
   @include font-normal;
   font-size: 15px;
   font-style: normal;
   line-height: 30px;
   color: color(primary);
 
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
+  display: flex;
+  margin-bottom: 30px;
 }
 
-.contacts__col {
-  padding: 0;
-  padding-bottom: 30px;
-  vertical-align: top;
+.contacts__left-col {
+  width: 80px;
 }
 
-.contacts__col--1 {
-  width: 75px;
-}
-
-.contacts__col--2 {
-  width: 185px;
+.contacts__right-col {
+  width: 180px;
 }
 
 .contacts__row--address .contacts__col--2 {
@@ -144,7 +141,7 @@
   .contacts__wrapper-all {
     width: 768px;
     margin: 0 auto;
-    padding-bottom: 1px;
+    padding-bottom: 4px;
   }
 
   .contacts__wrapper {
@@ -158,7 +155,7 @@
     font-size: 43px;
     line-height: 50px;
 
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 
   .contacts__title::after {
@@ -167,38 +164,26 @@
     right: 2px;
   }
 
-  .contacts__data {
+  .contacts__list {
+    width: 668px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contacts__list-item {
     font-size: 17px;
     line-height: 30px;
-
-    width: 668px;
-  }
-
-  .contacts__data-body {
-    display: flex;
-  }
-
-  .contacts__row {
     width: 334px;
+    margin-bottom: 0;
   }
 
-  .contacts__col {
-    padding-bottom: 0;
+  .contacts__left-col {
+    width: 79px;
   }
 
-  .contacts__col--1 {
-    width: 75px;
-    vertical-align: top;
-  }
-
-  .contacts__col--2 {
-    width: 256px;
-    vertical-align: top;
-  }
-
-  .contacts__row--address .contacts__col--2 {
-    width: 256px;
-    padding-right: 0;
+  .contacts__right-col {
+    width: 254px;
   }
 
   .contacts__map-image-container {
@@ -241,7 +226,7 @@
     margin: 0 auto;
     padding: 0;
     padding-top: 90px;
-    padding-bottom: 47px;
+    padding-bottom: 58px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -261,11 +246,12 @@
     line-height: 57px;
 
     margin-bottom: 49px;
+    margin-left: -5px;
   }
 
   .contacts__title::after {
     top: -6px;
-    left: -112px;
+    left: -106px;
     right: auto;
   }
 
@@ -283,16 +269,13 @@
     margin-bottom: 88px;
   }
 
-  .contacts__data {
+  .contacts__list {
     width: 350px;
+    flex-direction: column;
   }
 
-  .contacts__data-body {
-    display: table;
-  }
-
-  .contacts__col {
-    padding-bottom: 30px;
+  .contacts__list-item {
+    margin-bottom: 30px;
   }
 
   .contacts__map {
