@@ -114,6 +114,8 @@
 
   .item-card__description {
     padding: 26px;
+    width: 334px;
+    box-sizing: border-box;
   }
 
   .item-card__title {
@@ -130,6 +132,7 @@
   .item-card__price {
     font-size: 17px;
     line-height: 24px;
+    padding-left: 5px;
   }
 }
 
@@ -146,5 +149,13 @@
 
   .item-card__details {
     margin-bottom: 13px;
+  }
+
+  .item-card__description {
+    width: 316px;
+  }
+
+  .item-card__price {
+    padding-left: 0;
   }
 }
