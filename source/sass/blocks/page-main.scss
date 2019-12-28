@@ -33,7 +33,7 @@
   width: 260px;
   margin: 0 auto;
   padding: 0 30px;
-  padding-top: 26px;
+  padding-top: 22px;
   padding-bottom: 54px;
 }
 
@@ -80,7 +80,7 @@
 
 @media (min-width: $desktop-width) {
   .page-main--catalog::after {
-    padding-bottom: 47px;
+    padding-bottom: 54px;
   }
 
   .page-main__title-bg {
