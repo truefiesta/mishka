@@ -5,7 +5,8 @@
   background-color: color(bg-color);
 }
 
-.item-card__image:hover + .item-card__description {
+.item-card__image:hover + .item-card__description,
+.item-card__image:focus + .item-card__description {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -21,7 +22,8 @@
   padding: 28px;
   border: $border;
 
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
   }
 
@@ -50,7 +52,8 @@
   margin-bottom: 20px;
 }
 
-.item-card__link:hover .item-card__title {
+.item-card__link:hover .item-card__title,
+.item-card__link:focus .item-card__title {
   color: color(secondary-light2);
 }
 
@@ -68,7 +71,8 @@
   overflow: hidden;
 }
 
-.item-card__cart-link:hover .item-card__svg {
+.item-card__cart-link:hover .item-card__svg,
+.item-card__cart-link:focus .item-card__svg {
   opacity: 1;
   fill: color(accent);
 }
