@@ -38,7 +38,8 @@
   margin: 0 auto;
   padding: 21px 30px;
 
-  &:hover {
+  &:hover,
+  &:focus {
     padding-bottom: 26px;
   }
 
@@ -61,7 +62,8 @@
   fill: rgba(20, 144, 128, 0.5);
 }
 
-.hero-block__link:hover svg {
+.hero-block__link:hover svg,
+.hero-block__link:focus svg {
   fill: rgba(20, 144, 128, 0.7);
   pointer-events: none;
 }
@@ -108,7 +110,8 @@
     padding: 36px;
     box-sizing: border-box;
 
-    &:hover {
+    &:hover,
+    &:focus {
       height: 124px;
       padding-bottom: 41px;
     }
@@ -139,7 +142,8 @@
     padding: 27px 35px;
     margin: 0;
 
-    &:hover {
+    &:hover,
+    &:focus {
       padding-bottom: 32px;
     }
 
