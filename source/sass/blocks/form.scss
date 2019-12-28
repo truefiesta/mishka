@@ -169,6 +169,23 @@
   border-color: color(primary-light);
 }
 
+.form__input:disabled + .form__label {
+  color: color(primary-light);
+}
+
+.form__input:disabled + .form__label::before {
+  border-color: color(primary-light);
+}
+
+.form__input--radio:disabled + .form__label::after {
+  background-color: color(primary-light);
+}
+
+.form__input--checkbox:disabled + .form__label::after {
+  opacity: 0.2;
+}
+
+
 .form__label {
   @include font-bold;
   font-size: 17px;
