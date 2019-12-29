@@ -148,6 +148,8 @@
     width: 334px;
     min-height: 404px;
     margin-left: auto;
+    margin-top: 6px;
+    margin-bottom: 17px;
   }
 
   .featured__image {
@@ -157,7 +159,7 @@
 
   .featured__bottom-wrapper {
     width: 291px;
-    margin-top: -132px;
+    margin-top: -127px;
     margin-right: auto;
   }
 
@@ -172,7 +174,7 @@
   .featured__price {
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
   }
 }
 
@@ -181,7 +183,7 @@
     width: 1050px;
     padding: 50px;
     padding-top: 139px;
-    padding-bottom: 58px;
+    padding-bottom: 54px;
   }
 
   .featured__title-wrapper {
@@ -209,6 +211,7 @@
   .featured__legend {
     width: 105px;
     padding: 0 30px;
+    padding-right: 35px;
   }
 
   .featured__description-wrapper {
@@ -220,6 +223,7 @@
 
   .featured__bottom-wrapper {
     width: 291px;
+    margin-top: -132px;
     padding-left: 175px;
   }
 
