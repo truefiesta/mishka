@@ -38,12 +38,15 @@
 
   .review__author {
     font-size: 18px;
+    line-height: 24px;
 
     display: flex;
     flex-direction: column;
   }
 
   .review__author-contact {
+    font-size: 17px;
+    line-height: 30px;
     margin-top: 5px;
   }
 }
@@ -52,5 +55,9 @@
   .review__text {
     margin-bottom: 37px;
     padding-right: 95px;
+  }
+
+  .review__author {
+    font-size: 17px;
   }
 }

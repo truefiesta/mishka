@@ -35,6 +35,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer {
+    margin-top: -4px;
+  }
+
   .page-footer__wrapper {
     width: 668px;
     padding: 50px;
@@ -79,6 +83,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-footer {
+    margin-top: -8px;
+  }
+
   .page-footer__wrapper {
     width: 1050px;
   }
@@ -88,6 +96,6 @@
   }
 
   .page-footer__copyright {
-    padding-top: 4px;
+    padding-top: 0;
   }
 }

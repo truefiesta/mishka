@@ -1,7 +1,7 @@
 // Popup open and close
 var popupOverlayAddToCart = document.querySelector(".overlay--add-to-cart");
 var popupAddToCart = document.querySelector(".modal--add-to-cart");
-var openAddToCart = document.querySelector(".add-to-cart__link");
+var openAddToCart = document.querySelector(".featured__add-to-cart");
 var openAddToCartInCatalog = document.querySelectorAll(".item-card__cart-link");
 
 function openCartModal(evt) {

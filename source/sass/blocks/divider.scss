@@ -1,8 +1,8 @@
-.divider {
+.divider--line {
   position: relative;
 }
 
-.divider::before {
+.divider--line::before {
   content: "";
 
   width: 100%;
@@ -40,7 +40,7 @@
     display: block;
   }
 
-  .divider::before {
+  .divider--line::before {
     display: block;
     height: 17px;
   }
@@ -51,7 +51,7 @@
     height: 34px;
   }
 
-  .divider::before {
+  .divider--line::before {
     height: 23px;
   }
 }

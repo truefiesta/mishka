@@ -105,19 +105,19 @@
   }
 }
 
-.main-nav--icon svg {
+.main-nav__link--icon svg {
   fill: color(primary-light2);
 }
 
-.main-nav--icon:hover svg {
+.main-nav__link--icon:hover svg {
   fill: color(accent);
 }
 
-.main-nav--icon:focus svg {
+.main-nav__link--icon:focus svg {
   fill: color(accent);
 }
 
-.main-nav--icon:active svg {
+.main-nav__link--icon:active svg {
   fill: color(accent-light);
 }
 
@@ -158,6 +158,10 @@
     background-color: rgb(255, 255, 255);
 
     position: relative;
+  }
+
+  .main-nav--opened .main-nav__logo {
+    border-bottom: none;
   }
 
   .main-nav__logo {

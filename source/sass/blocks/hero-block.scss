@@ -16,11 +16,11 @@
   @include list-base;
 }
 
-.hero-block__product-item--light {
+.hero-block__link--light {
   background-color: color(accent);
 }
 
-.hero-block__product-item--dark {
+.hero-block__link--dark {
   background-color: rgb(86, 195, 178);
 }
 
@@ -38,12 +38,13 @@
   margin: 0 auto;
   padding: 21px 30px;
 
-  &:hover {
-    padding-top: 26px;
-    transform: translateY(-5px);
+  &:hover,
+  &:focus {
+    padding-bottom: 26px;
   }
 
   &:active {
+    padding-bottom: 26px;
     color: rgba(255, 255, 255, 0.3);
   }
 }
@@ -61,7 +62,8 @@
   fill: rgba(20, 144, 128, 0.5);
 }
 
-.hero-block__link:hover svg {
+.hero-block__link:hover svg,
+.hero-block__link:focus svg {
   fill: rgba(20, 144, 128, 0.7);
   pointer-events: none;
 }
@@ -77,7 +79,7 @@
     line-height: 50px;
   }
 
-  .hero-block_products-list-wrapper {
+  .hero-block__products-list-wrapper {
     width: 668px;
     height: 124px;
     margin: 0 auto;
@@ -88,33 +90,41 @@
     display: flex;
     height: 124px;
     justify-content: space-between;
-    align-items: flex-end;
   }
 
   .hero-block__product-item {
     width: 334px;
-    height: 119px;
-    padding: 29px 30px;
-    box-sizing: border-box;
-
-    &:hover {
-      height: 124px;
-    }
+    height: 124px;
+    display: flex;
+    align-items: flex-end;
   }
 
   .hero-block__link {
     font-size: 20px;
     line-height: 30px;
-    padding: 0;
 
-    &:hover {
-      padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 119px;
+    width: 334px;
+    padding: 36px;
+    box-sizing: border-box;
+
+    &:hover,
+    &:focus {
+      height: 124px;
+      padding-bottom: 41px;
+    }
+
+    &:active {
+      height: 124px;
+      padding-bottom: 34px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
-  .hero-block_products-list-wrapper {
+  .hero-block__products-list-wrapper {
     width: 1050px;
   }
 
@@ -125,12 +135,21 @@
 
   .hero-block__product-item {
     width: 525px;
-    padding: 27px 35px;
   }
 
   .hero-block__link {
-    padding: 0;
+    width: 525px;
+    padding: 27px 35px;
     margin: 0;
+
+    &:hover,
+    &:focus {
+      padding-bottom: 32px;
+    }
+
+    &:active {
+      padding-bottom: 32px;
+    }
   }
 
   .hero-block__link--lamp svg {
