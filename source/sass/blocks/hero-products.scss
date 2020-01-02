@@ -1,0 +1,134 @@
+.hero-products__list {
+  @include list-base;
+}
+
+.hero-products__link--light {
+  background-color: color(accent);
+}
+
+.hero-products__link--dark {
+  background-color: rgb(86, 195, 178);
+}
+
+.hero-products__link {
+  @include font-bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 21px 30px;
+
+  &:hover,
+  &:focus {
+    padding-bottom: 26px;
+  }
+
+  &:active {
+    padding-bottom: 26px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.hero-products__link span {
+  width: 130px;
+  pointer-events: none;
+}
+
+.hero-products__link--toy svg {
+  overflow: hidden;
+}
+
+.hero-products__link svg {
+  fill: rgba(20, 144, 128, 0.5);
+}
+
+.hero-products__link:hover svg,
+.hero-products__link:focus svg {
+  fill: rgba(20, 144, 128, 0.7);
+  pointer-events: none;
+}
+
+.hero-products__link:active svg {
+  fill: rgba(20, 144, 128, 0.3);
+  pointer-events: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .hero-products__list {
+    width: 668px;
+    height: 124px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero-products__item {
+    width: 334px;
+    height: 124px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hero-products__link {
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    height: 119px;
+    width: 334px;
+    padding: 36px;
+    box-sizing: border-box;
+
+    &:hover,
+    &:focus {
+      height: 124px;
+      padding-bottom: 41px;
+    }
+
+    &:active {
+      height: 124px;
+      padding-bottom: 34px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero-products__list {
+    width: 1050px;
+  }
+
+  .hero-products__item {
+    width: 525px;
+  }
+
+  .hero-products__link {
+    width: 525px;
+    padding: 27px 35px;
+    margin: 0;
+
+    &:hover,
+    &:focus {
+      padding-bottom: 32px;
+    }
+
+    &:active {
+      padding-bottom: 32px;
+    }
+  }
+
+  .hero-products__link--lamp svg {
+    margin-right: 0;
+  }
+
+  .hero-products__link--toy svg {
+    margin-right: -2px;
+    margin-bottom: -6px;
+  }
+}
