@@ -20,10 +20,3 @@ This repository was created for a final project of the course «[Professional HT
 10. Production-ready CSS grid layout
 11. Final lecture
 
-
-[![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-
-[travis-image]: https://travis-ci.com/htmlacademy-adaptive/34438-mishka-18.svg?branch=master
-[travis-url]: https://travis-ci.com/htmlacademy-adaptive/34438-mishka-18
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/34438-mishka-18/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/34438-mishka-18?type=dev
