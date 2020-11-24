@@ -1,0 +1,22 @@
+$tablet-width: 768px;
+$desktop-width: 1050px;
+$mobile-width-only: 767px;
+$retina-dppx: 1.5dppx;
+$retina-dpi: 144dpi;
+
+$colors: (
+  primary: rgb(68, 68, 68),
+  primary-light: rgba(68, 68, 68, 0.3),
+  primary-light2: rgba(68, 68, 68, 0.2),
+  primary-light3: rgba(68, 68, 68, 0.1),
+  secondary: rgb(0, 0, 0),
+  secondary-light: rgba(0, 0, 0, 0.3),
+  secondary-light2: rgba(0, 0, 0, 0.6),
+  accent: rgb(99, 209, 187),
+  accent-light: rgba(99, 209, 187, 0.3),
+  additional: rgb(236, 236, 236),
+  bg-color: rgb(241, 241, 241)
+);
+
+$padding: 0 30px;
+$border: 1px solid rgb(236, 236, 236);

@@ -1,0 +1,117 @@
+.advantages__wrapper {
+  width: 260px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 33px;
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.advantages__list {
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: color(secondary);
+
+  @include list-base;
+}
+
+.advantages__item {
+  margin-bottom: 23px;
+  padding-top: 60px;
+
+
+  &--ecology {
+    order: 1;
+    background-image: url("../img/icon-feature-flower.svg");
+    background-repeat: no-repeat;
+    background-size: 33px 38px;
+    background-position: 7px 5px;
+  }
+
+  &--style {
+    order: 3;
+    background-image: url("../img/icon-feature-money.svg");
+    background-repeat: no-repeat;
+    background-size: 47px 27px;
+    background-position: -1px 5px;
+  }
+
+  &--likes {
+    order: 5;
+    background-image: url("../img/icon-feature-heart.svg");
+    background-repeat: no-repeat;
+    background-size: 34px 27px;
+    background-position: 6px 12px;
+  }
+
+  &--handmade {
+    order: 2;
+    background-image: url("../img/icon-feature-ball.svg");
+    background-repeat: no-repeat;
+    background-size: 35px 34px;
+    background-position: 2px 10px;
+  }
+
+  &--local {
+    order: 4;
+    background-image: url("../img/icon-feature-rocket.svg");
+    background-repeat: no-repeat;
+    background-size: 55px 23px;
+    background-position: -7px 10px;
+  }
+
+  &--gift {
+    order: 6;
+    background-image: url("../img/icon-feature-gift.svg");
+    background-repeat: no-repeat;
+    background-size: 33px 32px;
+    background-position: 1px 8px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__wrapper {
+    width: 668px;
+    padding: 50px;
+    padding-top: 65px;
+    padding-bottom: 28px;
+  }
+
+  .advantages__title {
+    margin-bottom: 45px;
+  }
+
+  .advantages__list {
+    font-size: 20px;
+    line-height: 22px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    width: 300px;
+    margin-bottom: 56px;
+    padding-right: 34px;
+    padding-top: 56px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__wrapper {
+    width: 700px;
+    padding: 0 175px;
+    padding-top: 79px;
+    padding-bottom: 35px;
+  }
+
+  .advantages__item {
+    width: 300px;
+    padding-right: 50px;
+  }
+}
