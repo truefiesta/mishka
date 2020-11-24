@@ -1,0 +1,36 @@
+.social__list {
+  @include list-base;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social__item {
+  width: 24px;
+  margin: 0;
+}
+
+.social__link {
+  display: block;
+}
+
+.social__link svg {
+  fill: color(secondary);
+  pointer-events: none;
+}
+
+.social__link:hover svg,
+.social__link:focus svg {
+  fill: rgb(70, 193, 174);
+}
+
+.social__link:active svg {
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-width) {
+  .social__list {
+    justify-content: space-between;
+  }
+}
