@@ -1,58 +1,27 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Course project "Mishka"
 
-* Студент: [Yulia Karpova](https://up.htmlacademy.ru/adaptive/18/user/34438).
-* Наставник: [Дмитрий Вашкевич](https://up.htmlacademy.ru/htmlcss/26/user/116959).
-
----
-
-**Обратите внимание, что папка с вашими исходными файлами — `source/`.**
-
-Полезный файл:
-
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
+* Student: [Yulia Karpova](https://up.htmlacademy.ru/adaptive/18/user/34438).
+* Mentor: [Дмитрий Вашкевич](https://up.htmlacademy.ru/htmlcss/26/user/116959).
 
 ---
 
-### Памятка
+This repository was created for a final project of the course «[Professional HTML & CSS, level 2](https://htmlacademy.ru/intensive/adaptive)» by [HTML Academy](https://htmlacademy.ru).
 
-#### 1. Зарегистрируйтесь на Гитхабе
+## Syllabus
+1. Introduction
+2. CSS methodologies
+3. Preprocessors and Automation
+4. Adaptive design
+5. Adaptive elements
+6. Adaptive graphics
+7. Vector graphics and optimization
+8. Deep-dive into automation with Gulp
+9. Layout performance
+10. Production-ready CSS grid layout
+11. Final lecture
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/34438-mishka-18) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808189-541c1580-a190-11e9-8c4c-459d9c0f22f5.jpg">
-
-Получится вот так:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808191-54b4ac00-a190-11e9-92f8-ca77249661c3.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808192-54b4ac00-a190-11e9-804e-4565b5bd699c.jpg">
-
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
-```
-
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 2](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
+[![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 [travis-image]: https://travis-ci.com/htmlacademy-adaptive/34438-mishka-18.svg?branch=master
 [travis-url]: https://travis-ci.com/htmlacademy-adaptive/34438-mishka-18
