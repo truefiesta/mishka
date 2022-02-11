@@ -50,7 +50,7 @@
     "node": "8.16"
   },
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "picturefill": "^3.0.3",
     "svg4everybody": "^2.1.9"
   }
